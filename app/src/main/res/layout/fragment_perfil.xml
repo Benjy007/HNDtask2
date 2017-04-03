@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alumnos.hndtask2.fragments.PerfilFragment"
+    android:orientation="vertical">
+
+
+    <TextView android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nombre"
+        android:layout_margin="7dp"
+        android:textSize="20dp"
+        android:padding="5dp"/>
+
+    <TextView  android:id="@+id/txtApellidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/apellidos"
+        android:layout_margin="7dp"
+        android:textSize="20dp"
+        android:padding="5dp"/>
+
+    <TextView  android:id="@+id/txtUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/IntroUsuario"
+        android:layout_margin="7dp"
+        android:textSize="20dp"
+        android:padding="5dp"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alumnos.hndtask2.fragments.AjustesFragment"
+    android:orientation="vertical">
+
+
+    <TextView android:id="@+id/txtVersion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/version"
+        android:textSize="30dp"
+        android:padding="5dp"/>
+    <TextView android:id="@+id/txtContacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contacto"
+        android:textSize="20dp"
+        android:padding="5dp"/>
+    <TextView android:id="@+id/txtInfor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/infor"
+        android:textSize="20dp"
+        android:padding="5dp"/>
+
+</LinearLayout>
